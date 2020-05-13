@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div>rrrr</div>
+        <div>dddd</div>
+        <div>dsss</div>
+        <div>sssdd</div>
+    </div>
+    <div id="main"></div>
+    <div class="a"></div>
+    <p class="a"></p>
+    <span class ="a"></span>
+    <script>
+        var container = document.getElementById('container');
+        var divs = container.getElementsByTagName('div');
+        console.log(divs);
+        var main = document.querySelector('#main');
+        console.log(main);
+        var a1 = document.querySelector('.a');
+        console.log(a1);
+        var aall = document.querySelectorAll('.a');
+        console.log(aall);
+    </script>
+</body>
+</html>
